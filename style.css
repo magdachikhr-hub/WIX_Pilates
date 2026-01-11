@@ -172,7 +172,7 @@ main {
       height: 931px;
     }
     div.green_text {
-      padding: 40px;
+      padding: 60px 0 0 50px;
       display: flex;
       flex-direction: column;
       gap: 25px;
@@ -189,6 +189,15 @@ main {
       p {
         font-size: 18px;
         width: 413px;
+      }
+      button {
+        width: 154px;
+        height: 45px;
+        background-color: #1e3f22;
+        border: none;
+        color: #eeecea;
+        font-size: 17px;
+        margin-top: 300px;
       }
     }
   }
