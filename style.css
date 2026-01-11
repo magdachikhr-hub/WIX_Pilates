@@ -159,4 +159,37 @@ main {
       }
     }
   }
+
+  /* section third */
+
+  section.third {
+    height: 931px;
+    background-color: #d1dcce;
+    display: flex;
+    color: #1e3f22;
+    img {
+      width: 720px;
+      height: 931px;
+    }
+    div.green_text {
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      h2 {
+        font-size: 54px;
+        width: 331px;
+        font-weight: 500;
+      }
+      h3 {
+        font-size: 25px;
+        font-weight: 300;
+      }
+      p {
+        font-size: 18px;
+        width: 413px;
+      }
+    }
+  }
 }
