@@ -49,6 +49,9 @@ header {
 
 main {
   min-height: 100vh;
+
+  /* section first */
+
   section.first {
     height: 917px;
     display: flex;
@@ -85,6 +88,74 @@ main {
         border: none;
         color: #eeecea;
         font-size: 17px;
+      }
+    }
+  }
+
+  /* section second */
+
+  section.second {
+    background-color: #f4f3e8;
+    height: 1053px;
+    color: #1e3f22;
+
+    h2 {
+      text-align: center;
+      font-size: 56px;
+      font-weight: 400;
+      padding-top: 65px;
+      margin-bottom: 50px;
+    }
+    div.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      div.cards {
+        width: 417px;
+        height: 775px;
+        border: 1px solid rgb(206, 205, 194);
+        img {
+          width: 417px;
+          height: 417px;
+        }
+
+        div.session {
+          display: flex;
+          flex-direction: column;
+          padding: 31px;
+
+          h3 {
+            font-size: 28px;
+            font-weight: 400;
+          }
+          p,
+          span {
+            font-size: 17px;
+          }
+
+          p {
+            margin-top: 19px;
+          }
+          span {
+            margin-bottom: 15px;
+          }
+          div.line {
+            width: 355px;
+            height: 1px;
+            border: 1px solid rgb(206, 205, 194);
+            margin: 24px 0;
+          }
+          button {
+            width: 107px;
+            height: 40px;
+            background-color: #1e3f22;
+            border: none;
+            color: #f4f3e8;
+            font-size: 16px;
+            margin-top: 8px;
+          }
+        }
       }
     }
   }
