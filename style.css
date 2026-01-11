@@ -46,3 +46,46 @@ header {
     font-size: 20px;
   }
 }
+
+main {
+  min-height: 100vh;
+  section.first {
+    height: 917px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-image: url(./beds.png);
+    background-image: url(./image.avif); 
+     background-repeat: no-repeat; */
+
+    div.card {
+      width: 446px;
+      height: 416px;
+      background-color: rgb(244, 243, 232);
+      padding: 54px 34px;
+
+      h1 {
+        font-size: 51px;
+        color: rgb(30, 63, 34);
+        font-weight: 400;
+      }
+      p {
+        font-size: 17px;
+        color: rgb(30, 63, 34);
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 18px;
+        margin-bottom: 35px;
+      }
+      button {
+        width: 154px;
+        height: 45px;
+        background-color: rgb(30, 63, 34);
+        border: none;
+        color: #eeecea;
+        font-size: 17px;
+      }
+    }
+  }
+}
