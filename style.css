@@ -207,6 +207,7 @@ main {
     svg {
       width: 12px;
       height: 24px;
+      rotate: 180deg;
     }
 
     div.light_green {
